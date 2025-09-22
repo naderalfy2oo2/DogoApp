@@ -18,7 +18,7 @@ class Item {
 class _LessonState extends State<Lesson> {
   String selectedLevel = 'All';
 
-  // الداتا مع الصور
+  
   final List<Item> items = [
     Item(
         name: "Item 1",
@@ -106,7 +106,7 @@ class _LessonState extends State<Lesson> {
 
           const SizedBox(height: 12),
 
-          // عرض الليست بعد الفلترة
+          
           Expanded(
             child: ListView.builder(
               itemCount: filtered.length,
@@ -152,4 +152,3 @@ class _LessonState extends State<Lesson> {
   }
 }
 
-// الصفحة الجديدة اللي هتتنقل ليها
