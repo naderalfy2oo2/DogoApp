@@ -27,7 +27,7 @@ class LessonDetailsScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // صورة الكلب
+        
             Container(
               alignment: Alignment.center,
               decoration: BoxDecoration(
@@ -36,20 +36,20 @@ class LessonDetailsScreen extends StatelessWidget {
               ),
               padding: const EdgeInsets.all(16),
               child: Image.asset(
-                'assets/ChatGPT Image Aug 10, 2025, 08_36_54 PM (5).png', // ضع صورة الكلب هنا
+                'assets/ChatGPT Image Aug 10, 2025, 08_36_54 PM (5).png', 
                 height: 150,
               ),
             ),
             const SizedBox(height: 20),
 
-            // عنوان الدرس
+          
             const Text(
               "Lesson Details",
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
 
-            // الوصف
+          
             const Text(
               "Description",
               style: TextStyle(
@@ -65,7 +65,7 @@ class LessonDetailsScreen extends StatelessWidget {
             ),
             const Spacer(),
 
-            // زر الإكمال
+            
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
@@ -90,7 +90,7 @@ class LessonDetailsScreen extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            // شريط التنقل السفلي
+          
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
