@@ -29,13 +29,13 @@ class _LoginScreenState extends State<LoginScreen> {
     });
 
     if (res["success"] == true) {
-      // ✅ لو تسجيل الدخول صح
+      
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (_) => const LessonScreen()),
       );
     } else {
-      // ❌ لو فشل
+
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(res["message"] ?? "Login Failed")),
       );
