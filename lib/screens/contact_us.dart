@@ -28,7 +28,7 @@ class ContactUsScreen extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           child: Column(
             children: [
-              // Name Field
+            
               TextField(
                 decoration: InputDecoration(
                   hintText: "Name",
@@ -41,7 +41,7 @@ class ContactUsScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 15),
-              // Email Field
+              
               TextField(
                 decoration: InputDecoration(
                   hintText: "Email",
@@ -54,7 +54,7 @@ class ContactUsScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 15),
-              // Message Field
+              
               TextField(
                 maxLines: 5,
                 decoration: InputDecoration(
@@ -68,7 +68,7 @@ class ContactUsScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
-              // Send Button
+              
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
@@ -92,7 +92,7 @@ class ContactUsScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 30),
-              // Social Icons Row
+            
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const [
