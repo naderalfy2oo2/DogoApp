@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/ChatGPT Image Aug 10, 2025, 08_36_54 PM (2).png', // ضع صورة الكلب هنا
+              'assets/ChatGPT Image Aug 10, 2025, 08_36_54 PM (2).png', 
               height: 150,
             ),
             const SizedBox(height: 20),
