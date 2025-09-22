@@ -24,12 +24,12 @@ class LessonScreen extends StatelessWidget {
       ),
       body: SafeArea(
         child: SingleChildScrollView(
-          // ✅ علشان مفيش Overflow
+          
           child: Padding(
             padding: const EdgeInsets.all(16),
             child: Column(
               children: [
-                // مجموعة الأيقونات
+                
                 SizedBox(
                   height: 80,
                   child: ListView(
@@ -70,7 +70,7 @@ class LessonScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 24),
 
-                // البطاقة الرئيسية
+                
                 Card(
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(16)),
@@ -91,14 +91,14 @@ class LessonScreen extends StatelessWidget {
                           borderRadius: const BorderRadius.vertical(
                               top: Radius.circular(16)),
                           child: Image.asset(
-                            'assets/ChatGPT Image Aug 10, 2025, 08_36_54 PM (2).png', // ✅ غير اسم الصورة للصح
+                            'assets/ChatGPT Image Aug 10, 2025, 08_36_54 PM (2).png', 
                             fit: BoxFit.cover,
                           ),
                         ),
                       ),
                       const SizedBox(height: 16),
 
-                      // النصوص
+                  
                       const Padding(
                         padding: EdgeInsets.symmetric(horizontal: 16),
                         child: Column(
@@ -118,7 +118,7 @@ class LessonScreen extends StatelessWidget {
 
                       const SizedBox(height: 16),
 
-                      // زرار Continue
+                    
                       Padding(
                         padding: const EdgeInsets.symmetric(
                             horizontal: 16, vertical: 12),
