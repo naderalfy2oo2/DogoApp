@@ -10,17 +10,17 @@ class SettingsScreen extends StatefulWidget {
 
 class _SettingsScreenState extends State<SettingsScreen> {
   bool _isDarkMode = false;
-  String _language = "en"; // en = English, ar = Arabic
+  String _language = "en"; 
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      // ✅ تفعيل دعم اللغات
+    
       supportedLocales: const [
-        Locale("en"), // English
-        Locale("ar"), // Arabic
+        Locale("en"), 
+        Locale("ar"), 
       ],
       locale: Locale(_language),
       localizationsDelegates: const [
